@@ -9,4 +9,4 @@
 
 
 **Ссылка на GitHub Pages**
-https://smelizabeth.github.io/russian-travel-1/
+https://smelizabeth.github.io/russian-travel/index.html
