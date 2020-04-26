@@ -1,0 +1,24 @@
+@import url(./_inactive/header__lang_inactive.css);
+
+.header__lang {
+    font-size: 1.5rem;
+    line-height: 117%;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+  
+  .header__lang:hover {
+    opacity: .8;
+    -webkit-transition:  opacity .1s ease-out;
+    -o-transition:  opacity .1s ease-out;
+    transition:  opacity .1s ease-out;
+  }
+  
+  @media screen and (max-width: 425px) {
+    .header__lang {
+      font-size: 1.125rem;
+      line-height: 133%;
+    }
+  }
+
+

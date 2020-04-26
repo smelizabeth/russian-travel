@@ -1,0 +1,23 @@
+@import url(../photo/photo__item.css);
+
+.photo {
+    max-width: 1184px;
+    margin: 0 auto 92px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-gap: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .photo {
+          margin-bottom: 88px;
+      }
+  }
+  
+  @media screen and (max-width: 425px) {
+      .photo {
+          grid-gap: 12px;
+          margin-bottom: 64px;
+      }
+  }

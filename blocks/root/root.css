@@ -1,0 +1,20 @@
+.root {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #FFFFFF;
+    padding: 0 48px;
+    overflow-x: hidden;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .root {
+          padding: 0 24px;
+      }
+  }
+  
+  @media screen and (max-width: 425px) {
+      .root {
+          padding: 0 16px;
+      }
+  }
