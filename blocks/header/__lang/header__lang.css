@@ -1,12 +1,14 @@
-@import url(./_inactive/header__lang_inactive.css);
-
 .header__lang {
     font-size: 1.5rem;
     line-height: 117%;
     cursor: pointer;
     color: #FFFFFF;
+    text-decoration: none;
   }
   
+  .header__lang:first-child{
+  margin-right: 18px;
+  }
   .header__lang:hover {
     opacity: .8;
     -webkit-transition:  opacity .1s ease-out;

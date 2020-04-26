@@ -4,7 +4,6 @@
     font-family: 'Inter', Arial, sans-serif;
     color: #FFFFFF;
     padding: 0 48px;
-    overflow-x: hidden;
   }
   
   @media screen and (max-width: 768px) {
@@ -13,8 +12,8 @@
       }
   }
   
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 375px) {
       .root {
-          padding: 0 16px;
+          padding: 0 17px;
       }
   }

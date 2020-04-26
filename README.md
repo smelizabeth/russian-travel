@@ -1,7 +1,5 @@
 # Проект 3: Путешествие по России
 
-# К сожалению, не вижу комментарии в разметке
-
 
 **О проекте**
 
@@ -9,4 +7,4 @@
 
 
 **Ссылка на GitHub Pages**
-https://smelizabeth.github.io/russian-travel/index.html
+https://smelizabeth.github.io/russian-travel/

@@ -18,8 +18,20 @@
   }
   
 
+  @media all and (max-width: 800px) {
+    .footer {
+      margin-left: -24px;
+      margin-right: -24px;
+    }
+  }
   
-  @media screen and (max-width: 465px) {
+  @media all and (max-width: 768px) {
+    .footer {
+      margin: 0 0 24px;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
     .footer {
       display: block;
     }
