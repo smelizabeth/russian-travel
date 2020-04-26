@@ -46,12 +46,15 @@
   
   
   @media screen and (max-width: 768px){ 
-  .cover__overlay{ 
-    height: 500px; 
+   .cover__overlay{ 
+     height: 500px; 
   } 
   } 
-  
-  
+  @media screen and (max-width: 760px){ 
+    .cover__overlay{ 
+      height: 300px;
+   } 
+  } 
   @media screen and (max-width: 425px){ 
   .cover__overlay{ 
     height: 200px; 
